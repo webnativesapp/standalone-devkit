@@ -1,8 +1,3 @@
-// GLOBAL LIVE EDITOR ----------------------------------------------------------------------------------
-if (!!CONFIG.modules.liveEditor) {
-  jsio('import oneflag.LiveEdit as LiveEdit');
-  LiveEdit.connect();
-}
 // -----------------------------------------------------------------------------------------------------------------
 jsio('import src.ui.App as App');
 // -- APP ----------------------------------------------------------------------------------------------------------
@@ -15,7 +10,7 @@ var hideSplash = function(cb) {
   const bgColor = '#fff';
   document.documentElement.style.setProperty('background-color', bgColor);
   document.body.style.setProperty('background-color', bgColor);
-  
+
   var called = false;
   var splash = document.getElementById('_GCSplash');
   if (splash) {
@@ -28,8 +23,8 @@ var hideSplash = function(cb) {
         called = true;
       }, Math.max(CONFIG.modules.wait4It || 500));
     }, 500);
-    
-    
+
+
   } else {
     cb && cb();
     called = true;
@@ -43,7 +38,7 @@ GLOBAL.loadCssFile = function(url, cb) {
       return;
     }
     GLOBAL.stylesLoaded.push(url);
-    
+
     var file = url;
 
     var link = document.createElement("link");
@@ -95,4 +90,3 @@ if (scripts && scripts.length > 0) {
 // -----------------------------------------------------------------------------------------------------------------
 exports = {};
 // ---------------------------------------------------------------------------------------------------------------EOF
- 

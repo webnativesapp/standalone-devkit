@@ -1,8 +1,3 @@
-// GLOBAL LIVE EDITOR ----------------------------------------------------------------------------------
-if (!!CONFIG.modules.liveEditor) {
-  jsio('import oneflag.LiveEdit as LiveEdit');
-  LiveEdit.connect();
-}
 // ---   DEVICE HELPER -----------------------------------------------------------------------------------------------
 GLOBAL.device = {
   screen: {}

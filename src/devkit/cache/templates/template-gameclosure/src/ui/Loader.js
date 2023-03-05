@@ -56,7 +56,6 @@ exports = {
   handlers: scope,
   setupComponentsIO: function(opts) {
     // only happens once
-    this.registerLiveEditor();
     continuousAnimateRotation.call(this.$spinner, 3);
   }
 };

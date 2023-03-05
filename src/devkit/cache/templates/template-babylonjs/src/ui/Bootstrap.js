@@ -5,13 +5,6 @@ document.body.style['-khtml-user-select'] = 'none'
 document.body.style['-moz-user-select'] = 'none'
 document.body.style['-ms-user-select'] = 'none'
 document.body.style['user-select'] = 'none';
-// GLOBAL LIVE EDITOR ------------------------------------------------------------------------------------------------
-if (!!CONFIG.modules.liveEditor) {
-  // -----------------------------------------------------------------------------------------------------------------
-  jsio('import oneflag.LiveEdit as LiveEdit');
-  LiveEdit.connect();
-  // -----------------------------------------------------------------------------------------------------------------
-}
 // ---   DEVICE HELPER -----------------------------------------------------------------------------------------------
 GLOBAL.device = {
   screen: {}
