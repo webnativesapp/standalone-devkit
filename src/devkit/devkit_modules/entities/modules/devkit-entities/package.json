@@ -1,0 +1,21 @@
+{
+  "name": "devkit-entities",
+  "author": "Game Closure",
+  "description": "A set of base classes to augment gamedev on devkit!",
+  "version": "0.2.4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gameclosure/devkit-entities.git"
+  },
+  "dependencies": {},
+  "scripts": {},
+  "devkit": {
+    "buildTargets": {},
+    "clientPaths": {
+      "entities": "src"
+    },
+    "extensions": {
+      "build": "plugin/build"
+    }
+  }
+}

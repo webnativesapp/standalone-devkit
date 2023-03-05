@@ -1,0 +1,35 @@
+{
+    "modules" :[
+        {
+            "id": "2332423ABOBK-FSDF34DF34-FDASFSDF324",
+            "name": "oneflag",
+            "title": "One Flag Studio Utils",
+            "icon": "edit"
+        },
+        {
+            "id": "2332423ABOBK-FSDF34DF34-F4gssdfSDF326",
+            "name": "localnotify",
+            "title": "Local notifications",
+            "icon": "notifications_none"
+        },
+        {
+            "id": "34234234ABOBK-ASWM43F34-F4gssdfSDF326",
+            "name": "services",
+            "title": "Google Play Services Bundle",
+            "icon": "casino",
+            "description" : "Includes: --Login --Show Archievements --Show Leaderboards"
+        },
+        {
+            "id": "23322234WWOBK-FSDF34DF34-FDASFSDF324",
+            "name": "parallax",
+            "title": "Devkit-Parallax",
+            "icon": "line_style"
+        },
+        {
+            "id": "2WWSDFDBK-FSDF34DF34-FDASFSDF324",
+            "name": "entities",
+            "title": "Devkit-Entities",
+            "icon": "pets"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<!--START_PLUGINS_MANIFEST-->
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_APPLICATION-->
+	<!--LocalNotify-->
+	<receiver android:name="com.tealeaf.plugin.plugins.LocalNotifyPlugin" android:enabled="true" />
+<!--END_PLUGINS_APPLICATION-->
+

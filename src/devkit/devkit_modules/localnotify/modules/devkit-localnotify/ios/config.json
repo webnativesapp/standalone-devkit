@@ -1,0 +1,8 @@
+{
+	"code": [
+		"LocalNotifyPlugin.h",
+		"LocalNotifyPlugin.mm"
+	],
+	"frameworks": [
+	]
+}
